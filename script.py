@@ -5,7 +5,7 @@ pyautogui.PAUSE = 2
 #enter in your browser
 
 pyautogui.press ('win')
-pyautogui.write ('chrome')
+pyautogui.write ('chrome') #or input your browser name
 pyautogui.press ('enter')
 time.sleep (10)
 #enter on emprise system
@@ -13,13 +13,13 @@ time.sleep (10)
 pyautogui.press ("enter")
 
 #wait loading
-time.sleep(5)
+#time.sleep(5)
 
 
 #make  login
 #pyautogui.click (x = 932, y = 459) #modify of your text input posicion
-pyautogui.write ("your login")
-pyautogui.press ("tab")
-pyautogui.write ("your password")
-pyautogui.press ('tab')
-pyautogui.press ('enter')
+#pyautogui.write ("your login")
+#pyautogui.press ("tab")
+#pyautogui.write ("your password")
+#pyautogui.press ('tab')
+#pyautogui.press ('enter')
